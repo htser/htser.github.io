@@ -143,7 +143,7 @@ alert("欢迎关注Hiten OS微信公众号:\nhitenstudio")
 							<div class="col-md-6 col-md-pull-6 animate-box">
 								<div class="desc desc2">
 									<h3>多彩主题随心换</h3>
-									<p> 我们不限制用户，在正式版的 Hiten OS 中，我们新增的主题系统，如果用户不喜欢 Hiten OS 的 UI 了，可以从 主题APP 中选择你喜欢的主题。</p>
+									<p> 我们不限制用户，在正式版的 Hiten OS 中，我们新增的主题系统，用户不喜欢 Hiten OS 的 UI，可以从 主题APP 中选择你喜欢的主题。</p>
 									<p>注意:主题系统尚在概念阶段，正在研究解决方案中</p>
 									<p><a class="btn btn-primary" href="#theme">了解详细</a></p>
 								</div>
@@ -164,7 +164,7 @@ alert("欢迎关注Hiten OS微信公众号:\nhitenstudio")
 								</span>
 								<div class="feature-copy">
 									<h3>兼容性</h3>
-									<p>基于原生的特点 使得任何软件都可以很好的支持 告别不兼容的问题</p>
+									<p>基于原生的特点 使得任何软件都可以很好的支持 告别无响应、闪退</p>
 								</div>
 							</div>
 
@@ -177,7 +177,7 @@ alert("欢迎关注Hiten OS微信公众号:\nhitenstudio")
 								</span>
 								<div class="feature-copy">
 									<h3>便捷性</h3>
-									<p>HitenStudio 研制的UI/框架分离方式 让适配不再那么复杂 自主开发的适配工具 全中文</p>
+									<p>HitenStudio 研究的UI方式 让适配不在那么复杂 给开发者提供的适配工具 全中文</p>
 								</div>
 							</div>
 
@@ -189,7 +189,7 @@ alert("欢迎关注Hiten OS微信公众号:\nhitenstudio")
 								</span>
 								<div class="feature-copy">
 									<h3>安全性</h3>
-									<p>HitenOS 所采用的应用限制措施[正式版] 以及无预装 确保了手机的安全</p>
+									<p>HitenOS 所采用的安全系统[正式版] 以及无预装 确保了手机的安全</p>
 								</div>
 							</div>
 						</div>
