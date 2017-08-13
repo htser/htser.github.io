@@ -1,0 +1,76 @@
+.wp{margin:0 auto; width:960px;}
+.content_on{background-color:#f7f7f7;padding-top:38px;padding-bottom:40px;}
+.content_main{-moz-border-radius: 10px;-khtml-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px; border:1px solid #d9d9d9;margin-bottom:28px;}
+.content_header{}
+.content_t_header{font-size:30px;margin:32px auto 16px 40px;}
+.content_t_count{font-size:16px;margin:0 auto 30px 40px;}
+.content_list{background-color:#fff;-moz-border-radius: 0 0 10px 10px;-khtml-border-radius: 0 0 10px 10px;-webkit-border-radius: 0 0 10px 10px;border-radius: 0 0 10px 10px; clear: both;overflow: auto;}
+/*.category{padding:28px 0 28px 40px;overflow:auto;clear:both;}*/
+.category_name{font-size:20px;color:#7b7b7c;}
+/*.category li{float:left;margin:32px 44px 2px 8px;height:270px;width:130px}*/
+.category ul li a p{text-align:center;-moz-border-radius: 5px;-khtml-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px; padding: 3px 0;font-size:12px;}
+.category ul li:hover a p{background-color:#ff6000;color:#fff;} 
+.phone{overflow:auto;height: 238px;}
+
+.content_footer{-moz-border-radius: 10px;-khtml-border-radius: 10px;-webkit-border-radius:10px;border-radius: 10px; background-color:#f2f2f2;overflow:auto;border:1px solid #d9d9d9;margin-bottom: 40px;}
+.content_footer div{float:left;}
+.content_footer .c_f_left{background:url('http://static.bbs.miui.com/static/index/images/MiDesktop.png?fdw') no-repeat scroll -12px 0 transparent;margin:40px 0 40px 40px;padding: 0 24px 0 150px;border-right:1px solid #fff;}
+.content_footer .c_f_right{margin:40px 0;padding:10px 0 20px 10px;border-left:1px solid #e6e6e6;}
+.c_f_left .p1{font-size:14px;font-weight:700;}
+.c_f_left .p2{font-size:20px;margin:14px auto 16px;font-weight:700;}
+.desktopDetail{width:325px;color:#828282;font-size:12px;line-height: 24px;}
+.c_f_right .p3 {background:url('http://static.bbs.miui.com/static/index/images/MiDesktop.png?fdw') no-repeat scroll 0 -158px transparent;padding-left:24px;font-size:18px;font-weight:700;}
+.c_f_right .p4{color:#8b8b8b;font-size:12px;margin:10px 0 40px 20px;}
+.span_link{color:#fc7050;}
+
+
+
+
+.content_main{ width: 958px; margin: 40px auto; border: 1px solid #d9d9d9; border-radius: 5px; font-family: "微软雅黑"; }
+.content_header{ background-color: #fafafa; border-radius: 5px 5px 0 0px; position: relative; padding: 20px 40px; z-index: 10; border-bottom: 1px solid #d9d9d9;}
+.content_header h2{ color: #252525; font-weight: bold; font-size: 24px; }
+.supports_num{ position: absolute; width: 200px; left: 340px; top: 29px; color: #7b7b7c; }
+
+.choose0{ padding: 20px 8px 10px 12px; }
+.choose0 .pc_left{ padding-top: 10px; }
+.pc_left{ color: #252525; font-weight: bold; font-size: 18px; width: 66px; float: left; text-align: right; line-height: 50px; }
+.categorys{ float: left; width: 828px; padding:0 20px; }
+.categorys li{ width: 130px; margin: 10px 2px 0px 6px; height: 70px; background: url(categorys.png) no-repeat 1px 0; float: left; display: inline; }
+.categorys li p{ margin-left: 8px; width: 113px; height: 60px; cursor: pointer; }
+.phover{ background: url(http://static.bbs.miui.com/static/index/images/choosed.png) no-repeat 96px 42px; }
+.choose1{  padding: 0px 0px 15px 10px; }
+.sortOrder{ font-size: 12px; float: left; width: 400px; line-height: 50px; padding-left: 50px; }
+.sortOrder span{ padding: 0 10px; color: #e4e4e4; }
+.sortOrder a{ padding: 0 3px 5px 3px; font-weight: bold;}
+.sortOrder a:hover , .sortOrder a.ahover{ border-bottom: 3px solid #e1581d; color: #5c5c5c; }
+.sortOrder_0{ color: #a0a0a1; }
+.sortOrder .sortOrder_1{ color: #1b6cbf; }
+
+.cg_name{ background-color: #fafafa; padding-left: 40px; height: 20px; }
+.cg_name span{ display: inline-block; width: 130px; text-align: center; color: #f4f4f4; font-size: 14px; line-height: 20px; }
+.cg_name_0{ background-color: #e1581d; }
+.cg_name_1{ background-color: #529c17; }
+.cg_name_2{ background-color: #5e5e5e; }
+
+.phone_lists{ border-top: 1px solid #eeeeee; padding: 35px 0; }
+.category{ }
+.cg_lists{ padding:10px 29px; }
+.cg_lists li {float: left; height: 270px;width: 136px; padding: 25px 22px;}
+.phone {overflow: auto;height: 238px;}
+.cg_lists_p{ font-size: 12px; text-align: center; }
+
+.search{ position: absolute; right: 0; top: 20px; width: 200px; height: 32px;}
+.search :focus{border: 1px solid #F26B1A;border-radius: 5px;-moz-border-radius:5px;-webkit-border-radius: 5px; }
+.search_txt{ border: 1px solid transparent; width: 141px; height: 26px; padding: 5px 10px 1px 35px; line-height: 26px; background: transparent url(http://static.bbs.miui.com/static/index/images/search_txt_1.png) no-repeat 0 0; color:#a2a2a2; }
+.st_focus{ color: #949494; }
+
+.suggestions{ position: absolute; left: -35px; top: 40px; border: 1px solid #d0d0d0; z-index: 10; }
+.suggest{ padding-left: 60px; width: 160px;  background: white url(http://static.bbs.miui.com/static/index/images/suggest_logos.png) no-repeat 0 0; }
+.sg_ul{ background-color: #f9f9f9; padding: 17px 0; border-left: 1px solid #e5e5e5; border-top: 1px solid #e5e5e5; }
+.sg_ul li{ padding-left: 14px; font-size: 12px; line-height: 30px; color: #5c5c5c; cursor: pointer; }
+.sg_ul .li_hover{ _font-weight: bold; background-color: #f16b1b;}
+.sg_ul .li_hover span{ color: white; _color: #f38756; }
+.red_span{ color: #f38756; margin: 0 2px; }
+.suggest0{ background-position: 10px 13px;  }
+.suggest1{ background-position: -78px 13px;  }
+.suggest2{ background-position: -164px 13px;  }
