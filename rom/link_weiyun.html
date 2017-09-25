@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Hiten 微云跳转器</title>
+</head>
+<body>
+    <div>正在为您跳转...Powered By HitenStudio</div>
+    <script type="text/javascript">
+        function getParams(key) {
+            var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+                return unescape(r[2]);
+            }
+            return null;
+        };
+if (getParams("weiyunid")==null)
+  {
+alert('错误信息：\nHiten 提醒您，请勿直接访问本地址，需要递交参数 weiyunid 才能跳转！');
+window.location.href='http://bbs.hitenos.ml/'
+  }
+else
+  {
+window.location.href='https://share.weiyun.com/'+getParams("weiyunid");
+  }
+ 
+    </script>
+</body>
+</html>
