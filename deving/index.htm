@@ -12,40 +12,50 @@
 <meta HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate"> 
 <meta HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT"> 
 <meta HTTP-EQUIV="expires" CONTENT="0">
-<title>Hiten OS - 做业界良心实用ROM</title>
+<title>Hiten OS 官方网站 - 做业界良心实用ROM | HitenROM Project | HitenStudio 荣誉作品</title>
 </head>
-<body class="mdui-drawer-body-left  mdui-theme-primary-indigo mdui-theme-accent-pink">
+<body class="mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-pink">
 <div class="mdui-drawer" id="drawer">
   <ul class="mdui-list">
     <li class="mdui-list-item mdui-ripple mdui-list-item-active">
       <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">home</i>
       <div class="mdui-list-item-content">主页</div>
     </li>
+    <a href="design.html">
     <li class="mdui-list-item mdui-ripple">
       <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-purple">style</i>
       <div class="mdui-list-item-content">设计理念</div>
     </li>
+	</a>
+    <a href="download.html">
     <li class="mdui-list-item mdui-ripple">
       <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-green">file_download</i>
       <div class="mdui-list-item-content">ROM下载</div>
     </li>
+    </a>
+    <a href="http://bbs.hitenos.cn">
     <li class="mdui-list-item mdui-ripple">
       <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-orange">chat</i>
       <div class="mdui-list-item-content">官方论坛</div>
     </li>
+    </a>
     <li class="mdui-subheader">项目</li>
+    <a href="update.html">
     <li class="mdui-list-item mdui-ripple">
       <i class="mdui-list-item-icon mdui-icon material-icons">update</i>
       <div class="mdui-list-item-content">更新日志</div>
     </li>
+    </a>
     <li class="mdui-list-item mdui-ripple">
       <i class="mdui-list-item-icon mdui-icon material-icons">group_add</i>
       <div class="mdui-list-item-content">加入我们</div>
     </li>
+    <a href="about.html">
     <li class="mdui-list-item mdui-ripple">
       <i class="mdui-list-item-icon mdui-icon material-icons">info</i>
       <div class="mdui-list-item-content">关于项目</div>
     </li>
+    </a>
   </ul>
 </div>
 <!--顶部栏-->
@@ -70,7 +80,20 @@
 
 
 <div class="mdui-container-fluid">
-
+	<br/>
+	<img class="mdui-center" src="images/logo.png" height=150>
+	<br/>
+	<div class="mdui-typo-display-2 mdui-text-center mdui-hidden-lg-up">Hiten OS 快来了</div>
+	<div class="mdui-typo-display-2 mdui-text-center mdui-hidden-md-down">Hiten OS 就快来了!</div>
+	<br/>
+	<div class="mdui-typo-headline mdui-text-center">8月6日 公测 · 不见不散</div>
+	<br/>
+ 	<div class="mdui-center" style="width: 200px">
+ 		  <a href="#a" class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent">内测报名</a>
+ 		  <a href="http://bbs.hitenos.cn" class="mdui-btn mdui-btn-raised mdui-ripple">访问论坛</a>
+ 	</div>
+	<br/>
+	<div class="mdui-typo-subheading mdui-text-center">公测时间可能由于实际情况临时调整 恕不另行通知 敬请谅解</div>
 </div>
 
 <!--UI-->
@@ -83,5 +106,8 @@ document.getElementById('open').addEventListener('click', function () {
 });
 document.getElementById('close').addEventListener('click', function () {
   inst.close();
+});
+document.getElementById('toggle').addEventListener('click', function () {
+  inst.toggle();
 });
 </script>
